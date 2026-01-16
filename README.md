@@ -42,8 +42,7 @@ https://ollama.com
 Pull and run the model:
 ollama run llama3
 
-Ensure Ollama is running at:
-http://localhost:11434
+Ensure Ollama is running in background
 
 Run the Streamlit app:
 python -m streamlit run app.py
