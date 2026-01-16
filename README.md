@@ -13,10 +13,10 @@ Fully offline inference after model download
 
 Technologies Used:
 Python 3
-Streamlit – frontend web framework
-Ollama – local LLM runtime
-LLaMA 3 (llama3:latest) – language model
-REST API (HTTP) – communication between frontend and backend
+Streamlit
+Ollama
+LLaMA 3 (llama3:latest)
+REST API (HTTP)
 
 System Architecture
 User (Browser)
@@ -44,12 +44,6 @@ ollama run llama3
 
 Ensure Ollama is running at:
 http://localhost:11434
-
-Running the Application
-Clone the repository:
-
-git clone https://github.com/your-username/local-llm-streamlit.git
-cd local-llm-streamlit
 
 Run the Streamlit app:
 python -m streamlit run app.py
